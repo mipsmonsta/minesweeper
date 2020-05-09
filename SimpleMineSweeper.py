@@ -118,7 +118,7 @@ class MineSweeper(wx.Frame):
     def checkHasWon(self):
         if len(self.minesCoord) == 0:
             self.isGameOver = True
-            self.statusBar.SetStatusBarText("All Mines Found")
+            self.statusBar.SetStatusText("All Mines Found")
     
     def redrawBtnLabelFromMineState(self, board):
 
